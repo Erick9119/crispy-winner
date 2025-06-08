@@ -1,76 +1,68 @@
-[18:48:11] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[18:48:11] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) for Minecraft 1.21.4
-[18:48:12] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[18:48:12] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[18:48:17] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18:48:19] [ServerMain/INFO]: Loaded 1370 recipes
-[18:48:19] [ServerMain/INFO]: Loaded 1481 advancements
-[18:48:19] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[18:48:19] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 232.7ms
-[18:48:19] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[18:48:19] [Server thread/INFO]: Loading properties
-[18:48:19] [Server thread/INFO]: This server is running Paper version 1.21.4-231-ver/1.21.4@09e9afd (2025-05-19T17:59:36Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
-[18:48:19] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[18:48:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:48:19] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:48:20] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[18:48:20] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[18:48:20] [Server thread/INFO]: Default game type: SURVIVAL
-[18:48:20] [Server thread/INFO]: Generating keypair
-[18:48:20] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:48:20] [Server thread/INFO]: Using epoll channel type
-[18:48:20] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[18:48:20] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[18:48:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:48:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:48:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:48:20] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:48:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:48:20] [Server thread/INFO]: Preparing level "world"
-[18:48:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:48:21] [Server thread/INFO]: Preparing spawn area: 0%
-[18:48:21] [Server thread/INFO]: Preparing spawn area: 2%
-[18:48:22] [Server thread/INFO]: Preparing spawn area: 2%
-[18:48:22] [Server thread/INFO]: Time elapsed: 1035 ms
-[18:48:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[18:48:22] [Server thread/INFO]: Preparing spawn area: 0%
-[18:48:22] [Server thread/INFO]: Time elapsed: 292 ms
-[18:48:22] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[18:48:22] [Server thread/INFO]: Preparing spawn area: 0%
-[18:48:22] [Server thread/INFO]: Time elapsed: 168 ms
-[18:48:23] [Server thread/INFO]: [spark] Starting background profiler...
-[18:48:23] [Server thread/INFO]: Done preparing level "world" (2.424s)
-[18:48:23] [Server thread/INFO]: Running delayed init tasks
-[18:48:23] [Server thread/INFO]: Done (12.218s)! For help, type "help"
-[18:49:26] [Server thread/INFO]: Stopping server
-[18:49:26] [Server thread/INFO]: Saving players
-[18:49:26] [Server thread/INFO]: Saving worlds
-[18:49:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:49:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[18:49:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[18:49:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[18:49:26] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world' in 0.29s
-[18:49:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[18:49:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[18:49:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[18:49:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[18:49:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[18:49:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[18:49:26] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.14s
-[18:49:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[18:49:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[18:49:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[18:49:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[18:49:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[18:49:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[18:49:26] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.06s
-[18:49:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[18:49:26] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[18:49:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:49:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:49:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:49:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[18:49:26] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[18:49:26] [Server thread/INFO]: All I/O tasks to complete
-[18:49:26] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[18:49:26] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[08Jun2025 18:51:55.870] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
+[08Jun2025 18:51:55.872] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu120.04
+[08Jun2025 18:51:55.873] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.7 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[08Jun2025 18:51:55.955] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/crispy-winner/servidor_minecraft/config/fml.toml is not correct. Correcting
+[08Jun2025 18:51:55.957] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
+[08Jun2025 18:51:55.957] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
+[08Jun2025 18:51:55.958] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
+[08Jun2025 18:51:55.958] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
+[08Jun2025 18:51:55.971] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[08Jun2025 18:51:56.086] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/crispy-winner/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
+[08Jun2025 18:51:56.295] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[08Jun2025 18:51:57.255] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
+[08Jun2025 18:52:02.256] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 54.1.0, for MC 1.21.4 with MCP 20241203.143248
+[08Jun2025 18:52:02.257] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v54.1.0 Initialized
+[08Jun2025 18:52:02.274] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[08Jun2025 18:52:02.485] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/crispy-winner/servidor_minecraft/config/forge-common.toml is not correct. Correcting
+[08Jun2025 18:52:02.487] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
+[08Jun2025 18:52:02.488] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.logLegacyTagWarnings was corrected from null to its default, OFF. 
+[08Jun2025 18:52:02.718] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[08Jun2025 18:52:03.211] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 54.1.0 Target: null
+[08Jun2025 18:52:03.721] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[08Jun2025 18:52:04.518] [main/INFO] [net.minecraft.server.Main/]: No existing world data, creating new world
+[08Jun2025 18:52:05.316] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1370 recipes
+[08Jun2025 18:52:05.338] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1481 advancements
+[08Jun2025 18:52:05.488] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.4
+[08Jun2025 18:52:05.489] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[08Jun2025 18:52:05.489] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[08Jun2025 18:52:05.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[08Jun2025 18:52:05.582] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[08Jun2025 18:52:05.632] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[08Jun2025 18:52:05.684] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08Jun2025 18:52:05.684] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[08Jun2025 18:52:05.685] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08Jun2025 18:52:05.685] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[08Jun2025 18:52:05.704] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
+[08Jun2025 18:52:05.704] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
+[08Jun2025 18:52:05.706] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[08Jun2025 18:52:05.706] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[08Jun2025 18:52:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[08Jun2025 18:52:05.707] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[08Jun2025 18:52:05.708] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[08Jun2025 18:52:05.753] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[08Jun2025 18:52:11.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[08Jun2025 18:52:12.010] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[08Jun2025 18:52:12.551] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[08Jun2025 18:52:12.986] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[08Jun2025 18:52:13.474] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[08Jun2025 18:52:14.030] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[08Jun2025 18:52:14.477] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[08Jun2025 18:52:14.972] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
+[08Jun2025 18:52:15.472] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[08Jun2025 18:52:15.971] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[08Jun2025 18:52:16.123] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4153 ms
+[08Jun2025 18:52:16.124] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.423s)! For help, type "help"
+[08Jun2025 18:52:16.137] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[08Jun2025 18:53:16.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[08Jun2025 18:53:19.690] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[08Jun2025 18:53:19.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: x<--[HERE]
+[08Jun2025 18:53:53.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[08Jun2025 18:53:53.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[08Jun2025 18:53:53.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[08Jun2025 18:53:53.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08Jun2025 18:53:54.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[08Jun2025 18:53:54.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[08Jun2025 18:53:55.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08Jun2025 18:53:55.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08Jun2025 18:53:55.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08Jun2025 18:53:55.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
